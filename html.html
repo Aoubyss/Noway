@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Display</title>
+    <style>
+        /* Basic styling for the page.  Feel free to modify! */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Make the body take up the whole viewport height */
+            margin: 0;      /* Remove default body margins */
+            background-color: #f0f0f0; /* Light grey background */
+            font-family: sans-serif;
+        }
+        .image-container {
+            /* Could add a border, shadow, or rounded corners here, if desired */
+            /* border: 1px solid #ccc; */
+            /* padding: 10px; */
+            /* border-radius: 8px; */
+            /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+        }
+        img {
+            max-width: 100%; /* Ensure image doesn't exceed container width */
+            height: auto;    /* Maintain image aspect ratio */
+            display: block;  /*Removes extra space below the image*/
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="trap.jpg" alt="Wala Ka Makikita Dito">
+        </div>
+</body>
+</html>
